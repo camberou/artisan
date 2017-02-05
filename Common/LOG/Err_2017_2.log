@@ -1,0 +1,140 @@
+2/5/2017 7:03:57 PM | 
+2/5/2017 7:03:57 PM | 
+Message : L'objet est actuellement utilisé ailleurs.
+2/5/2017 7:03:57 PM | 
+LastTrace : openElement.ImageResize.BuildImage(Link imageOrigine)
+2/5/2017 7:03:57 PM | 
+Params : 
+2/5/2017 7:03:57 PM | 
+MethodeName : Int32 get_Width()
+2/5/2017 7:03:57 PM | 
+Stamp : 2/5/2017 7:03:56 PM
+2/5/2017 7:03:57 PM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/5/2017 7:03:57 PM | 
+AvailablePhysicalMemory : 925.42 Mo 
+2/5/2017 7:03:57 PM | 
+TotalPhysicalMemory : 3 Go 
+2/5/2017 7:03:57 PM | 
+AvailableVirtualMemory : 3.05 Go 
+2/5/2017 7:03:57 PM | 
+TotalVirtualMemory : 4 Go 
+2/5/2017 7:03:57 PM | 
+WorkingSet : 397.96 Mo 
+2/5/2017 7:03:57 PM | 
+PagedMemorySize : 463.8 Mo 
+2/5/2017 7:03:57 PM | 
+TotalMemory : 43.82 Mo 
+2/5/2017 7:03:57 PM | 
+
+2/5/2017 7:03:57 PM | 
+ExTrace : 
+2/5/2017 7:03:57 PM | 
+à openElement.ImageResize.BuildImage(Link imageOrigine) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\DataType\ImageResize.vb:ligne 126
+2/5/2017 7:03:57 PM | 
+
+2/5/2017 7:03:57 PM | 
+OETrace : 
+2/5/2017 7:03:57 PM | 
+à openElement.ImageResize.BuildImage(Link imageOrigine) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\DataType\ImageResize.vb:ligne 160
+2/5/2017 7:03:57 PM | 
+à WebElement.Elements.Standard.WEImage.UpdateAllImageResize() dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\Elements\WECommon\Standard\WEImage.vb:ligne 695
+2/5/2017 7:03:57 PM | 
+à WebElement.Elements.Standard.WEImage.OnBeginSyncLinks(EnuModeUpdateLinksPage modeUpdateLinksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\Elements\WECommon\Standard\WEImage.vb:ligne 319
+2/5/2017 7:03:57 PM | 
+à openElement.WebElement.Page.UpdateElementLinks(ElementBase element, EnuModeUpdateLinksPage modeUpdateLinksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageLinks.vb:ligne 84
+2/5/2017 7:03:57 PM | 
+à openElement.WebElement.Page.UpdateLinksPage(EnuModeUpdateLinksPage modeUpdateLinksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageLinks.vb:ligne 126
+2/5/2017 7:03:57 PM | 
+à openElement.WebElement.PageConn.SaveDataPage(Boolean writeHtml) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageConn.vb:ligne 237
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.WorkingSystem.Working_System.PageSave(List`1 listPageConn, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction, List`1& listError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 320
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.Save(ActionArg`2 actionArgs) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 599
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit._Lambda$__11(ActionArg a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 538
+2/5/2017 7:03:57 PM | 
+à openElement.Wait.RunAction(ActionWait action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:ligne 229
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.Save(List`1 listFrmPageEdit, List`1& listError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 542
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.Save(List`1 listFrmPageEdit) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 514
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.SaveActive() dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 486
+2/5/2017 7:03:57 PM | 
+à openElement.Forms.Main.RibbonCore.App.All.BBIAppSave_ItemClick(Object sender, ItemClickEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\App\All.vb:ligne 95
+2/5/2017 7:03:57 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/5/2017 7:03:57 PM | 
+
+2/5/2017 7:03:57 PM | 
+------------------
+2/5/2017 7:03:57 PM | 
+2/5/2017 7:03:57 PM | 
+Message : La collection a été modifiée ; l'opération d'énumération peut ne pas s'exécuter.
+2/5/2017 7:03:57 PM | 
+LastTrace : WebElement.Elements.Standard.WEImage.UpdateAllImageResize()
+2/5/2017 7:03:57 PM | 
+Params : 
+2/5/2017 7:03:57 PM | 
+MethodeName : Void ThrowInvalidOperationException(System.ExceptionResource)
+2/5/2017 7:03:57 PM | 
+Stamp : 2/5/2017 7:03:57 PM
+2/5/2017 7:03:57 PM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/5/2017 7:03:57 PM | 
+AvailablePhysicalMemory : 925.63 Mo 
+2/5/2017 7:03:57 PM | 
+TotalPhysicalMemory : 3 Go 
+2/5/2017 7:03:57 PM | 
+AvailableVirtualMemory : 3.05 Go 
+2/5/2017 7:03:57 PM | 
+TotalVirtualMemory : 4 Go 
+2/5/2017 7:03:57 PM | 
+WorkingSet : 398.06 Mo 
+2/5/2017 7:03:57 PM | 
+PagedMemorySize : 463.8 Mo 
+2/5/2017 7:03:57 PM | 
+TotalMemory : 44.49 Mo 
+2/5/2017 7:03:57 PM | 
+
+2/5/2017 7:03:57 PM | 
+ExTrace : 
+2/5/2017 7:03:57 PM | 
+à WebElement.Elements.Standard.WEImage.UpdateAllImageResize() dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\Elements\WECommon\Standard\WEImage.vb:ligne 696
+2/5/2017 7:03:57 PM | 
+à WebElement.Elements.Standard.WEImage.OnBeginSyncLinks(EnuModeUpdateLinksPage modeUpdateLinksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\Elements\WECommon\Standard\WEImage.vb:ligne 316
+2/5/2017 7:03:57 PM | 
+à openElement.WebElement.Page.UpdateElementLinks(ElementBase element, EnuModeUpdateLinksPage modeUpdateLinksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageLinks.vb:ligne 84
+2/5/2017 7:03:57 PM | 
+à openElement.WebElement.Page.UpdateLinksPage(EnuModeUpdateLinksPage modeUpdateLinksPage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageLinks.vb:ligne 123
+2/5/2017 7:03:57 PM | 
+à openElement.WebElement.PageConn.SaveDataPage(Boolean writeHtml) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageConn.vb:ligne 229
+2/5/2017 7:03:57 PM | 
+
+2/5/2017 7:03:57 PM | 
+OETrace : 
+2/5/2017 7:03:57 PM | 
+à openElement.WebElement.PageConn.SaveDataPage(Boolean writeHtml) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageConn.vb:ligne 310
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.WorkingSystem.Working_System.PageSave(List`1 listPageConn, Boolean writeHtml, Boolean withLinkMap, Boolean withListAction, List`1& listError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\WorkingSystem\WorkingSystem.vb:ligne 320
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.Save(ActionArg`2 actionArgs) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 599
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit._Lambda$__11(ActionArg a0) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 538
+2/5/2017 7:03:57 PM | 
+à openElement.Wait.RunAction(ActionWait action, ActionArg param, String text1, String text2, WaitIconType iconType) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\Common\Wait.vb:ligne 229
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.Save(List`1 listFrmPageEdit, List`1& listError) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 542
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.Save(List`1 listFrmPageEdit) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 514
+2/5/2017 7:03:57 PM | 
+à openElement.WebSite.UIAction.PageEdit.SaveActive() dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 486
+2/5/2017 7:03:57 PM | 
+à openElement.Forms.Main.RibbonCore.App.All.BBIAppSave_ItemClick(Object sender, ItemClickEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\App\All.vb:ligne 95
+2/5/2017 7:03:57 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/5/2017 7:03:57 PM | 
+
+2/5/2017 7:03:57 PM | 
+------------------
