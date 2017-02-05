@@ -138,3 +138,158 @@ OETrace :
 
 2/5/2017 7:03:57 PM | 
 ------------------
+2/5/2017 8:24:24 PM | 
+2/5/2017 8:24:24 PM | 
+Message : La référence d'objet n'est pas définie à une instance d'un objet.
+2/5/2017 8:24:24 PM | 
+LastTrace : openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage)
+2/5/2017 8:24:24 PM | 
+Params : 
+2/5/2017 8:24:24 PM | 
+MethodeName : System.String AddElement(openElement.WebElement.Elements.ElementBase, openElement.WebSite.SiteMap.ElementMap ByRef, Int32, Int32, Int32, System.Object, System.Object, Boolean)
+2/5/2017 8:24:24 PM | 
+Stamp : 2/5/2017 8:24:24 PM
+2/5/2017 8:24:24 PM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/5/2017 8:24:24 PM | 
+AvailablePhysicalMemory : 801.89 Mo 
+2/5/2017 8:24:24 PM | 
+TotalPhysicalMemory : 3 Go 
+2/5/2017 8:24:24 PM | 
+AvailableVirtualMemory : 2.97 Go 
+2/5/2017 8:24:24 PM | 
+TotalVirtualMemory : 4 Go 
+2/5/2017 8:24:24 PM | 
+WorkingSet : 448.75 Mo 
+2/5/2017 8:24:24 PM | 
+PagedMemorySize : 567.28 Mo 
+2/5/2017 8:24:24 PM | 
+TotalMemory : 92.81 Mo 
+2/5/2017 8:24:24 PM | 
+
+2/5/2017 8:24:24 PM | 
+ExTrace : 
+2/5/2017 8:24:24 PM | 
+à openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:ligne 340
+2/5/2017 8:24:24 PM | 
+à openElement.WebElement.Page.MoveElementRelToSide(String[] idArray, String destID, String sideName, List`1& listElementMap) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:ligne 754
+2/5/2017 8:24:24 PM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1150
+2/5/2017 8:24:24 PM | 
+
+2/5/2017 8:24:24 PM | 
+OETrace : 
+2/5/2017 8:24:24 PM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/5/2017 8:24:24 PM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1160
+2/5/2017 8:24:24 PM | 
+à openElement.CtlStylesSkins.BWorkerWebData_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Control\CtlStylesSkins.vb:ligne 622
+2/5/2017 8:24:24 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/5/2017 8:24:24 PM | 
+
+2/5/2017 8:24:24 PM | 
+------------------
+2/5/2017 8:24:37 PM | 
+2/5/2017 8:24:37 PM | 
+Message : La référence d'objet n'est pas définie à une instance d'un objet.
+2/5/2017 8:24:37 PM | 
+LastTrace : openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage)
+2/5/2017 8:24:37 PM | 
+Params : 
+2/5/2017 8:24:37 PM | 
+MethodeName : System.String AddElement(openElement.WebElement.Elements.ElementBase, openElement.WebSite.SiteMap.ElementMap ByRef, Int32, Int32, Int32, System.Object, System.Object, Boolean)
+2/5/2017 8:24:37 PM | 
+Stamp : 2/5/2017 8:24:37 PM
+2/5/2017 8:24:37 PM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/5/2017 8:24:37 PM | 
+AvailablePhysicalMemory : 815.2 Mo 
+2/5/2017 8:24:37 PM | 
+TotalPhysicalMemory : 3 Go 
+2/5/2017 8:24:37 PM | 
+AvailableVirtualMemory : 2.97 Go 
+2/5/2017 8:24:37 PM | 
+TotalVirtualMemory : 4 Go 
+2/5/2017 8:24:37 PM | 
+WorkingSet : 452.7 Mo 
+2/5/2017 8:24:37 PM | 
+PagedMemorySize : 570.74 Mo 
+2/5/2017 8:24:37 PM | 
+TotalMemory : 97.35 Mo 
+2/5/2017 8:24:37 PM | 
+
+2/5/2017 8:24:37 PM | 
+ExTrace : 
+2/5/2017 8:24:37 PM | 
+à openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:ligne 340
+2/5/2017 8:24:37 PM | 
+à openElement.WebElement.Page.MoveElementRelToSide(String[] idArray, String destID, String sideName, List`1& listElementMap) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:ligne 754
+2/5/2017 8:24:37 PM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1150
+2/5/2017 8:24:37 PM | 
+
+2/5/2017 8:24:37 PM | 
+OETrace : 
+2/5/2017 8:24:37 PM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/5/2017 8:24:37 PM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1160
+2/5/2017 8:24:37 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/5/2017 8:24:37 PM | 
+
+2/5/2017 8:24:37 PM | 
+------------------
+2/5/2017 8:24:47 PM | 
+2/5/2017 8:24:47 PM | 
+Message : La référence d'objet n'est pas définie à une instance d'un objet.
+2/5/2017 8:24:47 PM | 
+LastTrace : openElement.WebElement.ModDataEditTools.SetAllDataEdit(Page page, List`1 allDataEdit, String mediaKey)
+2/5/2017 8:24:47 PM | 
+Params : 
+2/5/2017 8:24:47 PM | 
+MethodeName : Void SetAllDataEdit(openElement.WebElement.Page, System.Collections.Generic.List`1[openElement.WebElement.WEDataEdit], System.String)
+2/5/2017 8:24:47 PM | 
+Stamp : 2/5/2017 8:24:47 PM
+2/5/2017 8:24:47 PM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/5/2017 8:24:47 PM | 
+AvailablePhysicalMemory : 858.49 Mo 
+2/5/2017 8:24:47 PM | 
+TotalPhysicalMemory : 3 Go 
+2/5/2017 8:24:47 PM | 
+AvailableVirtualMemory : 2.97 Go 
+2/5/2017 8:24:47 PM | 
+TotalVirtualMemory : 4 Go 
+2/5/2017 8:24:47 PM | 
+WorkingSet : 452.25 Mo 
+2/5/2017 8:24:47 PM | 
+PagedMemorySize : 569.86 Mo 
+2/5/2017 8:24:47 PM | 
+TotalMemory : 96.64 Mo 
+2/5/2017 8:24:47 PM | 
+
+2/5/2017 8:24:47 PM | 
+ExTrace : 
+2/5/2017 8:24:47 PM | 
+à openElement.WebElement.ModDataEditTools.SetAllDataEdit(Page page, List`1 allDataEdit, String mediaKey) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\WEDataEdit\ModDataEditTools.vb:ligne 177
+2/5/2017 8:24:47 PM | 
+à openElement.WebElement.Page.SetJsonDataEdit(String jsonData, String mKey) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:ligne 20
+2/5/2017 8:24:47 PM | 
+à openElement.Forms.PageEditFromJs._SetJsonDataEdit(String jsonData, Boolean noPageUpdate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 530
+2/5/2017 8:24:47 PM | 
+
+2/5/2017 8:24:47 PM | 
+OETrace : 
+2/5/2017 8:24:47 PM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/5/2017 8:24:47 PM | 
+à openElement.Forms.PageEditFromJs._SetJsonDataEdit(String jsonData, Boolean noPageUpdate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 546
+2/5/2017 8:24:47 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/5/2017 8:24:47 PM | 
+
+2/5/2017 8:24:47 PM | 
+------------------
