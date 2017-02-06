@@ -293,3 +293,188 @@ OETrace :
 
 2/5/2017 8:24:47 PM | 
 ------------------
+2/6/2017 12:26:07 AM | 
+2/6/2017 12:26:07 AM | 
+Message : La référence d'objet n'est pas définie à une instance d'un objet.
+2/6/2017 12:26:07 AM | 
+LastTrace : openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage)
+2/6/2017 12:26:07 AM | 
+Params : 
+2/6/2017 12:26:07 AM | 
+MethodeName : System.String AddElement(openElement.WebElement.Elements.ElementBase, openElement.WebSite.SiteMap.ElementMap ByRef, Int32, Int32, Int32, System.Object, System.Object, Boolean)
+2/6/2017 12:26:07 AM | 
+Stamp : 2/6/2017 12:26:07 AM
+2/6/2017 12:26:07 AM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/6/2017 12:26:07 AM | 
+AvailablePhysicalMemory : 1.02 Go 
+2/6/2017 12:26:07 AM | 
+TotalPhysicalMemory : 3 Go 
+2/6/2017 12:26:07 AM | 
+AvailableVirtualMemory : 3.15 Go 
+2/6/2017 12:26:07 AM | 
+TotalVirtualMemory : 4 Go 
+2/6/2017 12:26:07 AM | 
+WorkingSet : 435.82 Mo 
+2/6/2017 12:26:07 AM | 
+PagedMemorySize : 444.73 Mo 
+2/6/2017 12:26:07 AM | 
+TotalMemory : 73.76 Mo 
+2/6/2017 12:26:07 AM | 
+
+2/6/2017 12:26:07 AM | 
+ExTrace : 
+2/6/2017 12:26:07 AM | 
+à openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:ligne 340
+2/6/2017 12:26:07 AM | 
+à openElement.WebElement.Page.MoveElementRelToSide(String[] idArray, String destID, String sideName, List`1& listElementMap) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:ligne 754
+2/6/2017 12:26:07 AM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1150
+2/6/2017 12:26:07 AM | 
+
+2/6/2017 12:26:07 AM | 
+OETrace : 
+2/6/2017 12:26:07 AM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/6/2017 12:26:07 AM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1160
+2/6/2017 12:26:07 AM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/6/2017 12:26:07 AM | 
+
+2/6/2017 12:26:07 AM | 
+------------------
+2/6/2017 12:26:09 AM | 
+2/6/2017 12:26:09 AM | 
+Message : Nombre de paramètres incorrects.
+2/6/2017 12:26:09 AM | 
+LastTrace : System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+2/6/2017 12:26:09 AM | 
+Params : 
+2/6/2017 12:26:09 AM | 
+MethodeName : System.Object Invoke(System.Object, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, Boolean)
+2/6/2017 12:26:09 AM | 
+Stamp : 2/6/2017 12:26:09 AM
+2/6/2017 12:26:09 AM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/6/2017 12:26:09 AM | 
+AvailablePhysicalMemory : 1.01 Go 
+2/6/2017 12:26:09 AM | 
+TotalPhysicalMemory : 3 Go 
+2/6/2017 12:26:09 AM | 
+AvailableVirtualMemory : 3.15 Go 
+2/6/2017 12:26:09 AM | 
+TotalVirtualMemory : 4 Go 
+2/6/2017 12:26:09 AM | 
+WorkingSet : 436.02 Mo 
+2/6/2017 12:26:09 AM | 
+PagedMemorySize : 445.6 Mo 
+2/6/2017 12:26:09 AM | 
+TotalMemory : 74.93 Mo 
+2/6/2017 12:26:09 AM | 
+
+2/6/2017 12:26:09 AM | 
+ExTrace : 
+2/6/2017 12:26:09 AM | 
+à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+2/6/2017 12:26:09 AM | 
+à System.Delegate.DynamicInvokeImpl(Object[] args)
+2/6/2017 12:26:09 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+2/6/2017 12:26:09 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+2/6/2017 12:26:09 AM | 
+à System.Threading.ExecutionContext.runTryCode(Object userData)
+2/6/2017 12:26:09 AM | 
+à System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+2/6/2017 12:26:09 AM | 
+à System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+2/6/2017 12:26:09 AM | 
+à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+2/6/2017 12:26:09 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+2/6/2017 12:26:09 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2/6/2017 12:26:09 AM | 
+
+2/6/2017 12:26:09 AM | 
+OETrace : 
+2/6/2017 12:26:09 AM | 
+à openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:ligne 81
+2/6/2017 12:26:09 AM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/6/2017 12:26:09 AM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1160
+2/6/2017 12:26:09 AM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/6/2017 12:26:09 AM | 
+
+2/6/2017 12:26:09 AM | 
+------------------
+2/6/2017 12:26:10 AM | 
+2/6/2017 12:26:10 AM | 
+Message : Nombre de paramètres incorrects.
+2/6/2017 12:26:10 AM | 
+LastTrace : System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+2/6/2017 12:26:10 AM | 
+Params : 
+2/6/2017 12:26:10 AM | 
+MethodeName : System.Object Invoke(System.Object, System.Reflection.BindingFlags, System.Reflection.Binder, System.Object[], System.Globalization.CultureInfo, Boolean)
+2/6/2017 12:26:10 AM | 
+Stamp : 2/6/2017 12:26:10 AM
+2/6/2017 12:26:10 AM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/6/2017 12:26:10 AM | 
+AvailablePhysicalMemory : 1.01 Go 
+2/6/2017 12:26:10 AM | 
+TotalPhysicalMemory : 3 Go 
+2/6/2017 12:26:10 AM | 
+AvailableVirtualMemory : 3.16 Go 
+2/6/2017 12:26:10 AM | 
+TotalVirtualMemory : 4 Go 
+2/6/2017 12:26:10 AM | 
+WorkingSet : 435.93 Mo 
+2/6/2017 12:26:10 AM | 
+PagedMemorySize : 438.9 Mo 
+2/6/2017 12:26:10 AM | 
+TotalMemory : 74.96 Mo 
+2/6/2017 12:26:10 AM | 
+
+2/6/2017 12:26:10 AM | 
+ExTrace : 
+2/6/2017 12:26:10 AM | 
+à System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+2/6/2017 12:26:10 AM | 
+à System.Delegate.DynamicInvokeImpl(Object[] args)
+2/6/2017 12:26:10 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallbackDo(ThreadMethodEntry tme)
+2/6/2017 12:26:10 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+2/6/2017 12:26:10 AM | 
+à System.Threading.ExecutionContext.runTryCode(Object userData)
+2/6/2017 12:26:10 AM | 
+à System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+2/6/2017 12:26:10 AM | 
+à System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+2/6/2017 12:26:10 AM | 
+à System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+2/6/2017 12:26:10 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallback(ThreadMethodEntry tme)
+2/6/2017 12:26:10 AM | 
+à System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2/6/2017 12:26:10 AM | 
+
+2/6/2017 12:26:10 AM | 
+OETrace : 
+2/6/2017 12:26:10 AM | 
+à openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:ligne 86
+2/6/2017 12:26:10 AM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/6/2017 12:26:10 AM | 
+à openElement.Forms.PageEditFromJs._MoveControlToSide(String idjsArray, String destID, String sideName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 1160
+2/6/2017 12:26:10 AM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/6/2017 12:26:10 AM | 
+
+2/6/2017 12:26:10 AM | 
+------------------
